@@ -1,5 +1,8 @@
 # GitGetter
 
+Enter a Github user name and see the repositories associated with the user.
+You can click on the repository for a detailed view.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
 ## Development server
