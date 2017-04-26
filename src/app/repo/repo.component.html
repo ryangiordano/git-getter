@@ -1,0 +1,14 @@
+<div class="col-md-4" >
+  <a routerLink="detail/{{repo.owner.login}}/{{repo.id}}"><div class="panel" style="min-height:200px">
+    <div class="panel-heading">
+      <p>{{repo.name}}</p>
+
+    </div>
+    <div class="panel-body">
+      <p>Language: {{repo.language}}</p>
+      <p *ngIf="repo.description">{{repo.description}}</p>
+      <p>Created: {{dateCreated}}</p>
+      <!-- <a href="{{repo.full_url}}">View the Repo</a> -->
+    </div>
+  </div></a>
+</div>
